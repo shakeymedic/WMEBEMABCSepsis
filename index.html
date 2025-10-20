@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRCEM OSCE Summary: ABC-Sepsis Trial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* A light, calming blue-grey */
+        }
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .header-gradient {
+            background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+        }
+        .stat-icon {
+            font-size: 2.5rem;
+            color: #3b82f6;
+        }
+        .question-card {
+            border-left: 4px solid #1e3a8a;
+        }
+        .responsive-iframe-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        }
+
+        .responsive-iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-6xl">
+
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <img src="https://iili.io/KGQOvkl.md.png" alt="WMEBEM Logo" class="mx-auto h-20 w-auto mb-4">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">FRCEM Final OSCE: Critical Appraisal</h1>
+            <p class="text-lg text-gray-600 mt-2">An Infographic Summary of the ABC-Sepsis Trial</p>
+        </header>
+
+        <!-- Main Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- PICO Card -->
+            <div class="card p-6 lg:col-span-3">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center"><i class="ph-bold ph-question mr-3 text-blue-600"></i>The Clinical Question (PICO)</h2>
+                <div class="space-y-4 text-gray-700">
+                    <p><strong class="font-semibold text-gray-800">Population:</strong> Adult patients in UK EDs with sepsis (NEWS2 ≥ 5) requiring IV fluids within one hour.</p>
+                    <p><strong class="font-semibold text-gray-800">Intervention:</strong> IV fluid resuscitation with 5% Human Albumin Solution (HAS) for the first 6 hours.</p>
+                    <p><strong class="font-semibold text-gray-800">Comparison:</strong> IV fluid resuscitation with a balanced crystalloid (e.g., Hartmann's or Plasmalyte).</p>
+                    <p><strong class="font-semibold text-gray-800">Outcome:</strong> <span class="font-medium text-blue-700">Primary Feasibility Outcomes:</span> Recruitment rate and 30-day mortality. <span class="font-medium text-gray-600">Secondary Outcomes:</span> Hospital/ICU length of stay, protocol adherence, fluid volumes, complications.</p>
+                </div>
+            </div>
+
+            <!-- Study Design Card -->
+            <div class="card p-6">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center"><i class="ph-bold ph-atom mr-3 text-blue-600"></i>Study Design</h2>
+                 <ul class="space-y-2 text-gray-700 list-disc list-inside">
+                    <li>Multicentre (15 UK NHS hospitals)</li>
+                    <li>Open, parallel-group randomised feasibility trial</li>
+                    <li>1:1 randomisation, stratified by age, lactate, and site</li>
+                    <li>Investigator-led</li>
+                    <li>Recruitment period: 12 months (June 2021 - June 2022)</li>
+                </ul>
+            </div>
+
+            <!-- Population Card -->
+            <div class="card p-6">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center"><i class="ph-bold ph-users-three mr-3 text-blue-600"></i>Who Was Studied?</h2>
+                <div class="space-y-3">
+                    <div class="flex items-center">
+                        <i class="ph-bold ph-user-circle text-2xl mr-3 text-gray-500"></i>
+                        <div>
+                            <p class="font-semibold">301 participants recruited</p>
+                            <p class="text-sm text-gray-500">Mean age: 69 years, 50% male</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="ph-bold ph-warning-circle text-2xl mr-3 text-gray-500"></i>
+                         <div>
+                            <p class="font-semibold">Median NEWS2 score of 8</p>
+                            <p class="text-sm text-gray-500">Indicating a high-risk cohort</p>
+                        </div>
+                    </div>
+                     <div class="flex items-center">
+                        <i class="ph-bold ph-lungs text-2xl mr-3 text-gray-500"></i>
+                         <div>
+                            <p class="font-semibold">Most common infection: Respiratory (61%)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Findings Card -->
+            <div class="card p-6 lg:col-span-1 md:col-span-2">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center"><i class="ph-bold ph-chart-bar mr-3 text-blue-600"></i>Key Feasibility Findings</h2>
+                <div class="space-y-4">
+                     <div>
+                        <p class="text-4xl font-extrabold text-blue-600">Feasible</p>
+                        <p class="font-semibold text-gray-700">Recruited to time and target</p>
+                        <p class="text-sm text-gray-500">Mean of 2.4 participants/site/month</p>
+                    </div>
+                    <div>
+                        <p class="text-4xl font-extrabold text-blue-600">96%</p>
+                        <p class="font-semibold text-gray-700">Received allocated fluid</p>
+                        <p class="text-sm text-gray-500">Demonstrates good protocol adherence</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mortality Results Card -->
+            <div class="card p-6 lg:col-span-3">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center"><i class="ph-bold ph-heartbeat mr-3 text-blue-600"></i>Clinical Outcome: 30-Day Mortality</h2>
+                 <p class="text-gray-600 mb-4">The trial was not powered for mortality, but observed a trend. This is a crucial point for discussion.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
+                    <div class="p-4 bg-red-50 rounded-lg">
+                        <p class="text-5xl font-extrabold text-red-600">21.1%</p>
+                        <p class="font-semibold text-red-800 mt-1">5% Human Albumin Arm</p>
+                        <p class="text-sm text-red-700">(31/147 participants)</p>
+                    </div>
+                    <div class="p-4 bg-green-50 rounded-lg">
+                        <p class="text-5xl font-extrabold text-green-600">14.8%</p>
+                        <p class="font-semibold text-green-800 mt-1">Balanced Crystalloid Arm</p>
+                        <p class="text-sm text-green-700">(22/149 participants)</p>
+                    </div>
+                </div>
+                <div class="mt-4 text-center">
+                    <p class="font-mono text-gray-700">Adjusted Odds Ratio: 1.50 (95% CI, 0.84 - 2.83)</p>
+                    <p class="text-sm text-gray-500 mt-1">The confidence interval crosses 1, so this difference is <strong class="font-semibold">not statistically significant</strong>.</p>
+                </div>
+            </div>
+
+            <!-- Fluid Volume Card -->
+            <div class="card p-6 md:col-span-1 lg:col-span-2">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center"><i class="ph-bold ph-drop mr-3 text-blue-600"></i>Fluid Administration (First 6 Hours)</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <p class="font-semibold text-gray-800">5% HAS Arm</p>
+                        <p class="text-2xl font-bold">750 mL</p>
+                        <p class="text-sm text-gray-500">Median allocated fluid (IQR 500-1400)</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-gray-800">Crystalloid Arm</p>
+                        <p class="text-2xl font-bold">1250 mL</p>
+                        <p class="text-sm text-gray-500">Median allocated fluid (IQR 1000-2000)</p>
+                    </div>
+                </div>
+                <div class="mt-4 pt-4 border-t border-gray-200">
+                    <p class="font-semibold">Crossover was an issue:</p>
+                    <p class="text-gray-700"><strong class="font-bold">22%</strong> of the 5% HAS group received crystalloid for resuscitation, compared to only 1% in the crystalloid group.</p>
+                </div>
+            </div>
+
+            <!-- Clinical Bottom Line -->
+            <div class="card p-6 header-gradient text-white flex flex-col justify-center items-center text-center">
+                <i class="ph-bold ph-first-aid-kit text-6xl mb-3"></i>
+                <h2 class="text-2xl font-bold mb-2">Clinical Bottom Line</h2>
+                <p class="text-lg">This feasibility trial suggests a definitive, large-scale trial is possible. However, given the observed trend towards higher mortality and complications with 5% HAS in this ED sepsis population, and its higher cost, such a trial is <strong class="font-extrabold">unlikely to show a benefit for albumin over balanced crystalloids</strong> and may even suggest harm. Current practice of using crystalloids first remains appropriate.</p>
+            </div>
+
+
+            <!-- Strengths and Limitations -->
+            <div class="card p-6 lg:col-span-3">
+                 <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center"><i class="ph-bold ph-scales mr-3 text-blue-600"></i>Strengths & Limitations</h2>
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="font-semibold text-lg text-green-700 mb-2 flex items-center"><i class="ph-bold ph-check-circle mr-2"></i>Strengths</h3>
+                        <ul class="list-disc list-inside space-y-1 text-gray-700">
+                            <li>Pragmatic design, reflecting real-world UK ED practice.</li>
+                            <li>Multicentre nature enhances external validity (generalisability).</li>
+                            <li>High protocol adherence for receiving the allocated fluid.</li>
+                            <li>Successfully recruited a relevant, high-risk patient group.</li>
+                        </ul>
+                    </div>
+                     <div>
+                        <h3 class="font-semibold text-lg text-red-700 mb-2 flex items-center"><i class="ph-bold ph-x-circle mr-2"></i>Limitations</h3>
+                        <ul class="list-disc list-inside space-y-1 text-gray-700">
+                            <li><strong class="font-semibold">Feasibility trial:</strong> Not powered to detect differences in clinical outcomes like mortality.</li>
+                             <li><strong class="font-semibold">Open-label design:</strong> Clinicians knew the treatment, creating potential for performance bias.</li>
+                            <li><strong class="font-semibold">Significant crossover:</strong> 22% of the albumin group also received crystalloids, which could dilute the treatment effect.</li>
+                             <li>Intervention only mandated for 6 hours.</li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+            
+            <!-- Video Player Card -->
+            <div class="card p-6 lg:col-span-3">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center"><i class="ph-bold ph-video mr-3 text-blue-600"></i>Video Summary</h2>
+                <div class="responsive-iframe-container rounded-lg shadow-inner overflow-hidden">
+                    <iframe src="https://www.youtube.com/embed/lTeiuCWGakY?si=_8CBUjG0AtTfb7B_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <!-- Podcast Player Card -->
+            <div class="card p-6 lg:col-span-3">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center"><i class="ph-bold ph-microphone mr-3 text-blue-600"></i>Podcast</h2>
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2194800223&color=%231e3a8a&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+
+            <!-- Further Resources Card -->
+            <div class="card p-6 lg:col-span-3">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center"><i class="ph-bold ph-books mr-3 text-blue-600"></i>Further Resources</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
+                    <a href="https://drive.google.com/file/d/1xocoB9Ga8Nendx14MNzV6N4KRRux9kw6/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="block p-4 bg-gray-100 hover:bg-blue-100 rounded-lg transition-colors">
+                        <i class="ph-bold ph-read-cv-logo text-4xl text-blue-600"></i>
+                        <p class="mt-2 font-semibold text-gray-800">Full Paper</p>
+                    </a>
+                     <a href="https://docs.google.com/document/d/1vkX6647xUNEM-GIPNcl6-G89t_HeEC4D/edit?usp=sharing&ouid=116691911180668778350&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="block p-4 bg-gray-100 hover:bg-blue-100 rounded-lg transition-colors">
+                        <i class="ph-bold ph-file-text text-4xl text-blue-600"></i>
+                        <p class="mt-2 font-semibold text-gray-800">Appraisal Doc</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- OSCE Questions Section -->
+            <div class="lg:col-span-3 mt-8">
+                 <h2 class="text-3xl font-extrabold text-gray-900 mb-6 text-center">Potential FRCEM OSCE Questions</h2>
+                 <div class="space-y-6">
+                    <!-- Question 1 -->
+                    <div class="card p-6 question-card">
+                        <p class="font-bold text-lg text-gray-800">Examiner: "This was an open-label trial. What does that mean, and how might it have affected the results?"</p>
+                        <div class="mt-3 text-gray-700 bg-blue-50 p-4 rounded-lg">
+                            <p><strong class="font-semibold">Answer Structure:</strong></p>
+                            <ol class="list-decimal list-inside ml-4 mt-2 space-y-1">
+                                <li><strong>Define Open-Label:</strong> "An open-label (or unblinded) design means that both the clinicians and the patients were aware of which treatment was being administered."</li>
+                                <li><strong>Explain the Risk (Performance Bias):</strong> "This introduces a risk of performance bias. For example, a clinician might manage a patient they know is receiving albumin differently from one receiving crystalloid. They might have a lower threshold for ordering other interventions, like vasopressors or diuretics, based on their preconceived ideas about the fluid's properties."</li>
+                                <li><strong>Link to a Specific Finding:</strong> "This could potentially explain some of the secondary findings, such as the higher rates of pulmonary oedema (14.8% vs 7.4%) and vasopressor use (12.2% vs 8.1%) in the albumin arm, although these differences were not statistically significant."</li>
+                            </ol>
+                        </div>
+                    </div>
+                     <!-- Question 2 -->
+                    <div class="card p-6 question-card">
+                        <p class="font-bold text-lg text-gray-800">Examiner: "The authors conclude that a definitive superiority trial is unlikely to show a benefit for albumin. Do you agree with this conclusion, based on their findings?"</p>
+                        <div class="mt-3 text-gray-700 bg-blue-50 p-4 rounded-lg">
+                            <p><strong class="font-semibold">Answer Structure:</strong></p>
+                             <ol class="list-decimal list-inside ml-4 mt-2 space-y-1">
+                                 <li><strong>Agree with the Conclusion:</strong> "Yes, I agree with the authors' conclusion."</li>
+                                 <li><strong>Justify Using Primary Outcome:</strong> "Although this was only a feasibility trial and not powered for clinical outcomes, the point estimate for 30-day mortality was higher in the albumin group. The adjusted odds ratio was 1.50, and while the confidence interval (0.84-2.83) crosses one, it is notable that the interval is wide and does not suggest a strong signal of benefit for albumin. In fact, it doesn't rule out significant harm."</li>
+                                <li><strong>Incorporate Secondary Outcomes:</strong> "Furthermore, several secondary outcomes, such as the need for critical care interventions and rates of complications like pulmonary oedema, also trended in favour of the crystalloid arm. "</li>
+                                <li><strong>Synthesise and Conclude:</strong> "Given that albumin is significantly more expensive and these findings show no signal of benefit and a potential signal for harm, it is reasonable to conclude that a large, expensive definitive trial is unlikely to be worthwhile or demonstrate a clinically important advantage for albumin in this population."</li>
+                             </ol>
+                        </div>
+                    </div>
+                     <!-- Question 3 -->
+                    <div class="card p-6 question-card">
+                        <p class="font-bold text-lg text-gray-800">Examiner: "How does this study apply to your practice in the Emergency Department? Would you change your management of sepsis based on this paper?"</p>
+                        <div class="mt-3 text-gray-700 bg-blue-50 p-4 rounded-lg">
+                            <p><strong class="font-semibold">Answer Structure:</strong></p>
+                            <ol class="list-decimal list-inside ml-4 mt-2 space-y-1">
+                                <li><strong>Assess External Validity:</strong> "The study has good external validity for my practice. It was conducted in 15 UK NHS hospitals, and the patient population—adults with sepsis and a NEWS score of 5 or more—is exactly the cohort we manage daily in the ED."</li>
+                                 <li><strong>State Impact on Practice (or lack thereof):</strong> "I would not change my current practice based on this paper, but it does reinforce it. Current international and NICE guidelines already recommend crystalloids as the first-line fluid for sepsis resuscitation."</li>
+                                <li><strong>Explain Why:</strong> "This paper, while only a feasibility study, provides no evidence to challenge that guidance. The findings suggest that using albumin as a primary resuscitation fluid offers no benefit and may even be associated with worse outcomes. Therefore, I will continue to use balanced crystalloids as my first-choice resuscitation fluid for patients with sepsis in the ED."</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                 </div>
+            </div>
+
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="text-center mt-12 pt-8 border-t border-gray-300">
+            <p class="text-sm text-gray-500">
+                Designed by Dr Jake Turner for WMEBEM.
+            </p>
+            <p class="text-sm text-gray-500 mt-4">
+                <strong>Disclaimer:</strong> This infographic is an educational summary intended for revision purposes only. It is not a substitute for reading the original research paper or for clinical guidelines. Always refer to the full publication for a complete understanding.
+            </p>
+            <p class="text-xs text-gray-400 mt-2">
+                <strong>Reference:</strong> Gray AJ, Oatey K, Grahamslaw J, et al. Albumin Versus Balanced Crystalloid for the Early Resuscitation of Sepsis: An Open Parallel-Group Randomized Feasibility Trial-The ABC-Sepsis Trial. Crit Care Med. 2024 Oct 1;52(10):1520-1532. doi: 10.1097/CCM.0000000000006348.
+            </p>
+            <p class="text-xs text-gray-400 mt-4">
+                © 2024 WMEBEM. This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="underline hover:text-blue-600" target="_blank" rel="noopener noreferrer">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. You are free to share and adapt this material for non-commercial purposes, provided you give appropriate credit.
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
